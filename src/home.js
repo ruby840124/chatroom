@@ -1,6 +1,5 @@
 import React from 'react';
-import swal from 'sweetalert2';
-import {Link} from "react-router-dom";
+import {Link, Route , Redirect} from "react-router-dom";
 import firebase from 'firebase';
 import config from "./config";
 import './App.css';
@@ -8,7 +7,7 @@ import './App.css';
 class home extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {account:'',password:'', data:[]};
+    this.state = {account:'',password:'', data:[], login:false};
 
     // Initialize Firebase
     if (!firebase.apps.length) {
@@ -63,7 +62,7 @@ class home extends React.Component {
       if(passwordArray[accountArray.indexOf(account)] !== password){
         alert("The password is the wrong.");
       }else{
-        window.location.assign("/chatroom/login");
+        this.setState({login: true});
       }
     }else{
         alert("no such account.");
@@ -72,11 +71,11 @@ class home extends React.Component {
   }
 
   render() {
-    const {account, password} = this.state;
+    const {account, password, login} = this.state;
     return (
       <div className="MainBlock">
         <header className="topBlock">
-          <img  src={require('./asset/logo.JPG')}/>
+          <img  src={require('./asset/logo.JPG')} alt="" />
           <label style={{fontSize:'28px', color:'white'}}>FengChat</label>
           <label style={{fontSize:'22px'}}>Home</label>
         </header>
@@ -87,8 +86,11 @@ class home extends React.Component {
           <div style={{display:'inline'}}>
             <input type="password" placeholder="password" value={password} onChange={this.passwordChange}/>
           </div> 
-          <button style={{marginTop:'15px'}} onClick={this.checkLoginAlert}>login</button>
-          <Link to="/chatroom/signup"><button style={{marginTop:'5px'}}>Sign up</button></Link> 
+          <Route>
+            {login ? <Redirect to={{pathname:'/login', state:{account: account}}} /> : <Redirect to="/"/>}
+          </Route>
+          <button style={{marginTop:'15px', fontSize:'14px'}} onClick={this.checkLoginAlert}>login</button>
+          <Link to="/signup"><button style={{fontSize:'14px'}}>Sign up</button></Link>
         </div>
       </div>
     );

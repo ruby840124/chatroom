@@ -51,7 +51,6 @@ button {
   width: 22vh;
   height: 4vh;
   border-radius: 5px;
-  font-size: calc(2px + 2vmin);
   margin-bottom: 12px;
 }
 
