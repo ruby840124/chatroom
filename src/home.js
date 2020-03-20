@@ -2,7 +2,6 @@ import React from 'react';
 import {Link, Route , Redirect} from "react-router-dom";
 import firebase from 'firebase';
 import config from "./config";
-import './App.css';
 
 class home extends React.Component {
   constructor(props) {
@@ -75,7 +74,7 @@ class home extends React.Component {
     return (
       <div className="MainBlock">
         <header className="topBlock">
-          <img  src={require('./asset/logo.JPG')} alt="" />
+          <img className="log" src={require('./asset/logo.JPG')} alt="" />
           <label style={{fontSize:'28px', color:'white'}}>FengChat</label>
           <label style={{fontSize:'22px'}}>Home</label>
         </header>
@@ -89,8 +88,8 @@ class home extends React.Component {
           <Route>
             {login ? <Redirect to={{pathname:'/login', state:{account: account}}} /> : <Redirect to="/"/>}
           </Route>
-          <button style={{marginTop:'15px', fontSize:'14px'}} onClick={this.checkLoginAlert}>login</button>
-          <Link to="/signup"><button style={{fontSize:'14px'}}>Sign up</button></Link>
+          <button style={{marginTop:'15px', fontSize:'1vw'}} onClick={this.checkLoginAlert}>login</button>
+          <Link to="/signup"><button style={{fontSize:'1vw'}}>Sign up</button></Link>
         </div>
       </div>
     );

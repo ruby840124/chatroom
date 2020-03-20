@@ -47,6 +47,12 @@ html, body, #root {
   color:white;
 }
 
+.log{
+  margin: 10px 0;
+  width: 12vh;
+  height: 12vh;
+}
+
 button {
   width: 22vh;
   height: 4vh;
@@ -54,11 +60,6 @@ button {
   margin-bottom: 12px;
 }
 
-img{
-  margin: 10px 0;
-  width: 12vh;
-  height: 12vh;
-}
 
 input{
   height:2.5vh;

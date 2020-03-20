@@ -1,7 +1,7 @@
 import React from 'react';
 import login from './login';
 import home from './home';
-import chat from './chat';
+import chat from './chatroom/chat';
 import signup from './signup';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import './App.css';

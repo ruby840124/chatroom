@@ -1,0 +1,75 @@
+body{
+  margin: 0px;
+  background: #E1E1E1;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #a6bec0;
+  height: 16vh;
+  text-align: center;
+}
+
+.bookMark{
+  margin-left: 2vw;
+  background: #a6bec0;    
+  color: #00408B;         
+  text-align: center;   
+  font-size: 14px;   
+  font-weight:bold; 
+  height: 28px;         
+  width: 80px;           
+  border:none;            
+  outline:none;
+}
+
+.select_bookMark{
+  font-weight:bold;
+  color: #ffffff;                   
+}
+
+img{
+  margin-bottom: 10px;
+  width: 35px;
+  height: 35px;
+}
+
+.photo{
+  width: 100px;
+  height: 100px;
+}
+
+.content{
+  padding: 8% 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+._button{
+  border:0;
+  text-align: center;
+  background-color:#003C9D;
+  color:#fff;border-radius:10px;
+  height:25px;
+  width:110px;
+  margin-left:10px;
+  white-space:nowrap;
+}
+
+.upload-btn-wrapper{
+  position: relative;
+  display:inline;
+}
+
+.upload-btn-wrapper input[type=file] {
+  position: absolute;
+  left: 12px;
+  top: 0;
+  height:25px;
+  width:100px;
+  opacity: 0;
+}

@@ -97,7 +97,7 @@ class signup extends React.Component {
     return (
       <div className="MainBlock">
         <header className="topBlock">
-          <img src={require('./asset/logo.JPG')} alt="" ></img>
+          <img className="log" src={require('./asset/logo.JPG')} alt="" ></img>
           <label style={{fontSize:'28px',color:'white'}}>FengChat</label>
           <label style={{fontSize:'22px'}}>Signup</label>
         </header>
