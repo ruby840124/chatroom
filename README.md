@@ -9,8 +9,6 @@
 <img src="https://github.com/ruby840124/chatroom/blob/master/chatImage/login.JPG" width="30%" height="30%"><br><br>
 ▶information<br>
 <img src="https://github.com/ruby840124/chatroom/blob/master/chatImage/imformation.JPG" width="30%" height="30%"><br><br>
-▶information<br>
-<img src="https://github.com/ruby840124/chatroom/blob/master/chatImage/imformation.JPG" width="30%" height="30%"><br><br>
 ▶information(choosePhoto)<br>
 <img src="https://github.com/ruby840124/chatroom/blob/master/chatImage/choosePhoto.JPG" width="30%" height="30%"><br><br>
 ▶information(after choosePhoto)<br>
