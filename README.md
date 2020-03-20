@@ -27,5 +27,6 @@
 邊緣人就不要聊啦，不是邊緣人快找你朋友聊天吧>////<<br>
 <img src="https://github.com/ruby840124/chatroom/blob/master/chatImage/chatRoom.JPG" width="30%" height="30%"><br><br>
 我詞窮看的懂就好 啾咪<3<br>
+目前暫定這樣，maybe會在改得更美一點，請讓我研究一下有啥套件好用<br>
 # website demo
 https://ruby840124.github.io/chatroom/
