@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/chatroom/static/css/main.c418d583.chunk.css",
-    "main.js": "/chatroom/static/js/main.0ad7c4e5.chunk.js",
-    "main.js.map": "/chatroom/static/js/main.0ad7c4e5.chunk.js.map",
+    "main.css": "/chatroom/static/css/main.535b4cac.chunk.css",
+    "main.js": "/chatroom/static/js/main.b651667d.chunk.js",
+    "main.js.map": "/chatroom/static/js/main.b651667d.chunk.js.map",
     "runtime-main.js": "/chatroom/static/js/runtime-main.1a7a90db.js",
     "runtime-main.js.map": "/chatroom/static/js/runtime-main.1a7a90db.js.map",
-    "static/js/2.314185d3.chunk.js": "/chatroom/static/js/2.314185d3.chunk.js",
-    "static/js/2.314185d3.chunk.js.map": "/chatroom/static/js/2.314185d3.chunk.js.map",
+    "static/css/2.6ede3073.chunk.css": "/chatroom/static/css/2.6ede3073.chunk.css",
+    "static/js/2.81616e44.chunk.js": "/chatroom/static/js/2.81616e44.chunk.js",
+    "static/js/2.81616e44.chunk.js.map": "/chatroom/static/js/2.81616e44.chunk.js.map",
     "index.html": "/chatroom/index.html",
-    "precache-manifest.73c1743eb1a1bcbc01b99c9da571cfbf.js": "/chatroom/precache-manifest.73c1743eb1a1bcbc01b99c9da571cfbf.js",
+    "precache-manifest.0cfb9b2ee924de724c8bbe40d5a70bbc.js": "/chatroom/precache-manifest.0cfb9b2ee924de724c8bbe40d5a70bbc.js",
     "service-worker.js": "/chatroom/service-worker.js",
-    "static/css/main.c418d583.chunk.css.map": "/chatroom/static/css/main.c418d583.chunk.css.map",
-    "static/js/2.314185d3.chunk.js.LICENSE.txt": "/chatroom/static/js/2.314185d3.chunk.js.LICENSE.txt",
+    "static/css/2.6ede3073.chunk.css.map": "/chatroom/static/css/2.6ede3073.chunk.css.map",
+    "static/css/main.535b4cac.chunk.css.map": "/chatroom/static/css/main.535b4cac.chunk.css.map",
+    "static/js/2.81616e44.chunk.js.LICENSE.txt": "/chatroom/static/js/2.81616e44.chunk.js.LICENSE.txt",
     "static/media/ChatRoom.svg": "/chatroom/static/media/ChatRoom.190e2f8a.svg",
     "static/media/Friend.svg": "/chatroom/static/media/Friend.f1be32a3.svg",
     "static/media/Information.svg": "/chatroom/static/media/Information.d6527dc3.svg",
@@ -19,8 +21,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1a7a90db.js",
-    "static/js/2.314185d3.chunk.js",
-    "static/css/main.c418d583.chunk.css",
-    "static/js/main.0ad7c4e5.chunk.js"
+    "static/css/2.6ede3073.chunk.css",
+    "static/js/2.81616e44.chunk.js",
+    "static/css/main.535b4cac.chunk.css",
+    "static/js/main.b651667d.chunk.js"
   ]
 }
