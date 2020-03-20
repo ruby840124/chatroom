@@ -20,10 +20,10 @@
 ▶information(after choosePhoto)<br>
 成功裁切頭貼，且更新頭貼成功(使用cropper)<br>
 <img src="https://github.com/ruby840124/chatroom/blob/master/chatImage/AfterchoosePhoto.JPG" width="30%" height="30%"><br><br>
-▶friend<br>
-還沒做，之後可以新增好友及好友列表<br>
+▶friend(還沒做)<br>
+可以新增好友及好友列表的地方<br>
 <img src="https://github.com/ruby840124/chatroom/blob/master/chatImage/friend.JPG" width="30%" height="30%"><br><br>
-▶chatRoom<br>
+▶chatRoom(還沒做)<br>
 邊緣人就不要聊啦，不是邊緣人快找你朋友聊天吧>////<<br>
 <img src="https://github.com/ruby840124/chatroom/blob/master/chatImage/chatRoom.JPG" width="30%" height="30%"><br><br>
 我詞窮看的懂就好 啾咪<3<br>
